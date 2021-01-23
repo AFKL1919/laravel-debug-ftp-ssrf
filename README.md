@@ -1,6 +1,8 @@
 # laravel-debug-ftp-ssrf
 A fake ftp server build for laravel~
+Inspired by https://www.ambionics.io/blog/laravel-debug-rce. 
 
+# How to use
 1. Change the keyword `vps` to the address of your vps.
 2. Then start the script.
 3. Send the following request to the target server.

